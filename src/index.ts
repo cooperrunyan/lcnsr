@@ -17,6 +17,8 @@ const program = new commander.Command()
   .description('Adds a new license to your project.')
   .action(async (license: ReturnType<typeof getLicense>, args: any) => {
     try {
+      if (!license) return;
+
       if (!license && args.describe) {
         helpAll();
         return;
