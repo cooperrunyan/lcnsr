@@ -8,6 +8,7 @@ import { describeOne } from './describeOne.js';
 import { getAllLicenseCodes, getFile } from './getters.js';
 import { helpAll } from './helpAll.js';
 import { determineMostSimilar } from './similarity.js';
+import { updatePackage } from './updatePackage.js';
 
 const program = new commander.Command()
   .arguments('<license>')
@@ -43,11 +44,15 @@ async function writeLicense(code: null | string, args: any, command: any): Promi
 
     fs.writeFileSync(path.resolve('./LICENSE.txt'), file.license as any);
 
+    const thereIsAPackage = fs.existsSync(path.resolve('./package.json'));
+    console.log(thereIsAPackage);
+    if (thereIsAPackage) updatePackage(getLicense(code || license));
+
     if (!args.quiet) console.log(`Successfully wrote license. (${(file.description as any).id.toUpperCase()})`);
   } catch (err: any) {
     if (/license.+not supported/gi.test(err.message)) {
+      if (closest.amt < 0.3) return void writeLicense(closest.code, args, command);
       if (!args.quiet && args.strict) return void console.log(`That license type is not supported. Did you mean "${closest.code}"?`);
-      if (closest.amt > 0.3) return writeLicense(closest.code, args, command);
 
       console.log(err.message);
     }

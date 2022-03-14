@@ -1,6 +1,6 @@
 {
   "name": "lcnsr",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "",
   "main": "bin/index.js",
   "type": "module",
@@ -21,7 +21,7 @@
     "Helper"
   ],
   "author": "Cooper Runyan",
-  "license": "EPL-2.0",
+  "license": "epl-2.0",
   "devDependencies": {
     "@types/node": "^17.0.21",
     "tslib": "^2.3.1",
