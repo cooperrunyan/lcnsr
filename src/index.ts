@@ -45,7 +45,6 @@ async function writeLicense(code: null | string, args: any, command: any): Promi
     fs.writeFileSync(path.resolve('./LICENSE.txt'), file.license as any);
 
     const thereIsAPackage = fs.existsSync(path.resolve('./package.json'));
-    console.log(thereIsAPackage);
     if (thereIsAPackage) updatePackage(getLicense(code || license));
 
     if (!args.quiet) console.log(`Successfully wrote license. (${(file.description as any).id.toUpperCase()})`);

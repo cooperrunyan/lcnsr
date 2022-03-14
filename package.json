@@ -1,11 +1,15 @@
 {
   "name": "lcnsr",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "",
   "main": "bin/index.js",
   "type": "module",
   "bin": {
-    "lcnsr": "bin/index.js"
+    "lcnsr": "bin/index.js",
+    "lcnser": "bin/index.js",
+    "lcn3r": "bin/index.js",
+    "lcnse": "bin/index.js",
+    "lcns": "bin/index.js"
   },
   "preferGlobal": true,
   "scripts": {
