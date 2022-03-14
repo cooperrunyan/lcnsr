@@ -1,0 +1,10 @@
+artistic-2.0
+artistic-2
+artistic 2
+artistic 2.0
+artistic2
+artistic
+artistic license
+artistic-license
+
+/artistic(?:[ \-](?:license|2(?:\.0)?)|2)?/gi

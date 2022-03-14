@@ -1,0 +1,69 @@
+afl-3.0
+afl-3
+afl 3
+afl3
+afl 3.0
+afl
+academic
+academic 3
+academic-3
+academic-3.0
+academic 3.0
+academic free
+academic f
+academic-f
+academic-free
+academic free license
+academic-free license
+academic free-license
+academic-free-license
+academic free 3
+academic free 3.0
+academic free-3.0
+academic free-3
+academic f 3
+academic f 3.0
+academic f-3.0
+academic f-3
+academic-f 3
+academic-f 3.0
+academic-f-3.0
+academic-f-3
+academic-free 3
+academic-free 3.0
+academic-free-3.0
+academic-free-3
+academic free license 3
+academic free 3
+academic free license 3.0
+academic free 3.0
+academic free license-3.0
+academic free-3.0
+academic free license-3
+academic free-3
+academic-free license 3
+academic-free 3
+academic-free license 3.0
+academic-free 3.0
+academic-free license-3.0
+academic-free-3.0
+academic-free license-3
+academic-free-3
+academic free-license 3
+academic free 3
+academic free-license 3.0
+academic free 3.0
+academic free-license-3.0
+academic free-3.0
+academic free-license-3
+academic free-3
+academic-free-license 3
+academic-free 3
+academic-free-license 3.0
+academic-free 3.0
+academic-free-license-3.0
+academic-free-3.0
+academic-free-license-3
+academic-free-3
+
+/a(?:cademic(?:[ \-](?:f(?:ree(?:[ \-](?:license(?:[ \-]3(?:\.0)?)?|3(?:\.0)?))?|[ \-]3(?:\.0)?)?|3(?:\.0)?))?|fl[ \-]3(?:\.0)?|fl3?)/gi

@@ -1,0 +1,71 @@
+bsl-1.0
+bsl-1
+bsl 1
+bsl 1.0
+bsl1.0
+bsl1
+
+boost software license
+boost software license 1
+boost software license 1.0
+
+
+boost-software license 1.0
+boost software-license 1.0
+boost software license-1.0
+boost-software-license 1.0
+boost software-license-1.0
+boost-software-license-1.0
+
+boost-software license 1
+boost software-license 1
+boost software license-1
+boost-software-license 1
+boost software-license-1
+boost-software-license-1
+
+
+boost software
+boost software 1
+boost software 1.0
+
+boost-software 1.0
+boost software 1.0
+boost software-1.0
+boost-software-1.0
+
+boost-software 1
+boost software 1
+boost software-1
+boost-software-1
+
+
+boost license
+boost license 1
+boost license 1.0
+
+boost-license 1.0
+boost license 1.0
+boost license-1.0
+boost-license-1.0
+
+boost-license 1
+boost license 1
+boost license-1
+boost-license-1
+
+boost-software license
+boost software-license
+boost software license
+boost-software-license
+boost software-license
+boost-software-license
+
+boost-software
+boost software
+
+boost-license
+boost license
+
+
+/b(?:oost(?: software[ \-](?:license(?:[ \-]1(?:\.0)?)?|1(?:\.0)?)|\-(?:software(?: license 1(?:\.0)?|\-(?:license(?:[ \-]1(?:\.0)?)?|1(?:\.0)?)| license| 1(?:\.0)?)?|license(?:[ \-]1(?:\.0)?)?)| (?:license(?:[ \-]1(?:\.0)?)?|software))|sl[ \-]1(?:\.0)?|sl1(?:\.0)?)/gi

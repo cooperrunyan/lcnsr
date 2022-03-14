@@ -1,0 +1,10 @@
+eupl
+eupl 1
+eupl 1.1
+
+european union public license
+european union license
+european union public
+european union
+
+/eu(?:ropean[ \-]union(?:[ \-](?:(?:public[ \-])?license|public))?|pl(?:[ \-]1\.1|(?:[ \-]1)?))/gim

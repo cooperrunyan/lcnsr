@@ -1,0 +1,9 @@
+agpl 3.0
+agpl 3
+affero general public license
+affero general license
+affero general public
+affero general
+affero
+
+/a(?:ffero(?:[ \-]general[ \-](?:public[ \-])?license|(?:[ \-]general(?:[ \-]public)?)?)|gpl[ \-]3(?:\.0)?)/gim

@@ -1,0 +1,137 @@
+bsd-3.0
+bsd-3
+bsd3
+bsd 3
+bsd 3.0
+bsd3.0
+
+berkely software distribution 3
+berkely-software distribution 3
+berkely software-distribution 3
+berkely-software-distribution 3
+berkely software distribution-3
+berkely-software distribution-3
+berkely software-distribution-3
+berkely-software-distribution-3
+
+berkely software distribution 3.0
+berkely-software distribution 3.0
+berkely software-distribution 3.0
+berkely-software-distribution 3.0
+berkely software distribution-3.0
+berkely-software distribution-3.0
+berkely software-distribution-3.0
+berkely-software-distribution-3.0
+
+berkely software 3
+berkely software 3
+berkely software-3
+berkely software-3
+
+berkely software 3.0
+berkely-software 3.0
+berkely-software 3.0
+berkely-software-3.0
+berkely-software-3.0
+
+berkely distribution 3
+berkely-distribution 3
+berkely distribution-3
+berkely-distribution-3
+
+berkely distribution 3.0
+berkely-distribution 3.0
+berkely distribution-3.0
+berkely-distribution-3.0
+
+berkely 3
+berkely-3
+
+berkely 3.0
+berkely-3.0
+
+
+berkelysoftwaredistribution3
+berkelysoftwaredistribution3.0
+berkelysoftware3
+berkelysoftware3.0
+berkelydistribution3
+berkelydistribution3.0
+
+berkely3
+berkely3.0
+
+berkely software dist 3
+berkely-software dist 3
+berkely software-dist 3
+berkely-software-dist 3
+berkely software dist-3
+berkely-software dist-3
+berkely software-dist-3
+berkely-software-dist-3
+
+berkely software dist 3.0
+berkely-software dist 3.0
+berkely software-dist 3.0
+berkely-software-dist 3.0
+berkely software dist-3.0
+berkely-software dist-3.0
+berkely software-dist-3.0
+berkely-software-dist-3.0
+
+berkely dist 3
+berkely-dist 3
+berkely dist-3
+berkely-dist-3
+
+berkely dist 3.0
+berkely-dist 3.0
+berkely dist-3.0
+berkely-dist-3.0
+
+berkelysoftwaredist3
+berkelysoftwaredist3.0
+berkelysoftware3
+berkelysoftware3.0
+berkelydist3
+berkelydist3.0
+
+berkely3
+berkely3.0
+
+bsd
+
+berkely software distribution
+berkely-software distribution
+berkely software-distribution
+berkely-software-distribution
+
+berkely software
+berkely-software
+
+berkely distribution
+berkely-distribution
+
+
+berkely
+
+berkelysoftwaredistribution
+berkelysoftwaredistribution
+berkelysoftware
+berkelysoftware
+berkelydistribution
+berkelydistribution
+
+berkely software dist
+berkely-software dist
+berkely software-dist
+berkely-software-dist
+
+berkely dist
+berkely-dist
+
+berkelysoftwaredist
+berkelysoftware
+berkelydist
+
+/(b(?:erkely(?:(?: (?:software[ \-]d|d)ist(?:ribution[ \-]|[ \-])|\-(?:software[ \-]dist(?:ribution[ \-]|[ \-])|dist(?:ribution[ \-]|[ \-])))3(?:\.0)?|software(?:dist(?:ribution3(?:\.0)?|3(?:\.0)?)|3(?:\.0)?)|dist(?:ribution3(?:\.0)?|3(?:\.0)?)|\-software[ \-]3\.0|(?: (?:software )?3|\-3|3)(?:\.0)?| software\-3)|sd[ \-]3(?:\.0)?|sd3(?:\.0)?))|(b(?:erkely(?:(?:[ \-](?:software[ \-]d|d)|d)ist(?:ribution)?|software(?:dist(?:ribution)?)?|[ \-]software)?|sd)$)/gi

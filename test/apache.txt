@@ -1,0 +1,10 @@
+apache-2.0
+apache-2
+apache 2
+apache 2.0
+apache2
+apache
+apache license
+apache-license
+
+/apache(?:[ \-](?:license|2(?:\.0)?)|2)?/gi

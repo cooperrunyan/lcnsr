@@ -1,0 +1,122 @@
+wtf
+wtfpl
+dwtfpl
+wtf pl
+wtf public license
+what the fuck
+do what the fuck
+do what the fuck pl
+do what the fuck license
+do what the fuck public license
+do what the fuck public
+dwtf public
+dwtf license
+dwtf public license
+do wtf public
+do wtf license
+do wtf public license
+wtf public
+wtf license
+wtf public license
+
+wtf-pl
+wtf-public-license
+wtf public-license
+wtf-public license
+what-the-fuck
+what the-fuck
+what-the fuck
+do-what-the-fuck
+do what-the-fuck
+do what the-fuck
+do-what the-fuck
+do-what-the fuck
+do-what the fuck
+do-what-the-fuck-pl
+do what-the-fuck-pl
+do what the-fuck-pl
+do-what the-fuck-pl
+do-what-the fuck-pl
+do-what the fuck-pl
+do-what-the-fuck pl
+do what-the-fuck pl
+do what the-fuck pl
+do-what the-fuck pl
+do-what-the fuck pl
+do-what the fuck pl
+do-what-the-fuck-license
+do what-the-fuck-license
+do what the-fuck-license
+do-what the-fuck-license
+do-what-the fuck-license
+do-what the fuck-license
+do-what-the-fuck license
+do what-the-fuck license
+do what the-fuck license
+do-what the-fuck license
+do-what-the fuck license
+do-what the fuck license
+do-what-the-fuck-license
+do-what-the-fuck-public
+do what-the-fuck-public
+do what the-fuck-public
+do-what the-fuck-public
+do-what-the fuck-public
+do-what the fuck-public
+do-what-the-fuck public
+do what-the-fuck public
+do what the-fuck public
+do-what the-fuck public
+do-what-the fuck public
+do-what the fuck public
+do-what-the-fuck-public
+do-what-the-fuck-public-license
+do what-the-fuck-public-license
+do what the-fuck-public-license
+do-what the-fuck-public-license
+do-what-the fuck-public-license
+do-what the fuck-public-license
+do-what-the-fuck public-license
+do what-the-fuck public-license
+do what the-fuck public-license
+do-what the-fuck public-license
+do-what-the fuck public-license
+do-what the fuck public-license
+do-what-the-fuck-public-license
+do-what-the-fuck-public license
+do what-the-fuck-public license
+do what the-fuck-public license
+do-what the-fuck-public license
+do-what-the fuck-public license
+do-what the fuck-public license
+do-what-the-fuck public license
+do what-the-fuck public license
+do what the-fuck public license
+do-what the-fuck public license
+do-what-the fuck public license
+do-what the fuck public license
+do-what-the-fuck-public license
+dwtf-public
+dwtf-license
+dwtf-public-license
+dwtf public-license
+dwtf-public license
+do-wtf-public
+do-wtf public
+do wtf-public
+do-wtf-license
+do wtf-license
+do-wtf license
+do-wtf-public-license
+do wtf public-license
+do-wtf public license
+do-wtf-public license
+do-wtf public-license
+do wtf-public-license
+wtf-public
+wtf-license
+wtf-public-license
+wtf public-license
+wtf-public-license
+
+/(?:d(?:o(?:(?: w(?:hat the fuck public |tf\-public\-)l| w(?:(?:hat the fuck |tf\-)l|tf l)| wtf public[ \-]l)icense| what[ \-]the\-fuck(?:[ \-](?:(?:public[ \-]l|l)icense|p(?:ublic|l)))?|\-w(?:hat[ \-]the[ \-]fuck(?:[ \-](?:(?:public[ \-]l|l)icense|p(?:ublic|l)))?|(?:tf[ \-]public[ \-]l|tf[ \-]l)icense|tf[ \-]public)| w(?:(?:(?:hat the fuck(?: public)?|tf\-public)|tf public)|hat the fuck pl))|(?:wtf[ \-]public[ \-]l|wtf[ \-]l)icense|wtf[ \-]public|wtfpl)|wtf[ \-](?:(?:public[ \-]l|l)icense|p(?:ublic|l))|w(?:(?:hat[ \-]the[ \-]fuck|tfpl)|tf))|(^fuck$)/gim

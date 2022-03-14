@@ -1,0 +1,7 @@
+"cc-by-4" "cc by-4" "cc-by 4" "cc by 4" "cc-by-4.0" "cc by-4.0" "cc-by 4.0" "cc by 4.0"
+
+creative commons 1
+
+|((?!sa)((creative(\s|-|)))((commons(\s|-|))|)(?=(.+|)4))
+
+/(cc[ \-]by[ \-]4(?:\.0)?)|((?=sa)((creative(\s|-|)))((commons(\s|-|))|)(?=(.+|)4))/gi

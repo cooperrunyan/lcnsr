@@ -1,0 +1,56 @@
+ecl-2.0
+ecl-2
+ecl
+ecl 2
+ecl 2.0
+
+educational community license
+educational-community license
+educational community-license
+educational-community-license
+
+educational community license 2
+educational-community license 2
+educational community-license 2
+educational-community-license 2
+educational community license-2
+educational-community license-2
+educational community-license-2
+educational-community-license-2
+
+educational community license 2.0
+educational-community license 2.0
+educational community-license 2.0
+educational-community-license 2.0
+educational community license-2.0
+educational-community license-2.0
+educational community-license-2.0
+educational-community-license-2.0
+
+educational license 2.0
+educational-license 2.0
+educational license-2.0
+educational-license-2.0
+
+educational license 2
+educational-license 2
+educational license-2
+educational-license-2
+
+educational community 2.0
+educational-community 2.0
+educational community-2.0
+educational-community-2.0
+
+educational community 2
+educational-community 2
+educational community-2
+educational-community-2
+
+educational 2.0
+educational-2.0
+
+educational 2
+educational-2
+
+/e(?:ducational[ \-](?:community[ \-](?:license(?:[ \-]2(?:\.0)?)?|2(?:\.0)?)|license[ \-]2(?:\.0)?|2(?:\.0)?)|cl(?:[ \-]2(?:\.0)?)?)/gim

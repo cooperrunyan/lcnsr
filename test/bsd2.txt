@@ -1,0 +1,102 @@
+bsd-2.0
+bsd-2
+bsd2
+bsd 2
+bsd 2.0
+bsd2.0
+
+berkely software distribution 2
+berkely-software distribution 2
+berkely software-distribution 2
+berkely-software-distribution 2
+berkely software distribution-2
+berkely-software distribution-2
+berkely software-distribution-2
+berkely-software-distribution-2
+
+berkely software distribution 2.0
+berkely-software distribution 2.0
+berkely software-distribution 2.0
+berkely-software-distribution 2.0
+berkely software distribution-2.0
+berkely-software distribution-2.0
+berkely software-distribution-2.0
+berkely-software-distribution-2.0
+
+berkely software 2
+berkely software 2
+berkely software-2
+berkely software-2
+
+berkely software 2.0
+berkely-software 2.0
+berkely-software 2.0
+berkely-software-2.0
+berkely-software-2.0
+
+berkely distribution 2
+berkely-distribution 2
+berkely distribution-2
+berkely-distribution-2
+
+berkely distribution 2.0
+berkely-distribution 2.0
+berkely distribution-2.0
+berkely-distribution-2.0
+
+berkely 2
+berkely-2
+
+berkely 2.0
+berkely-2.0
+
+
+berkelysoftwaredistribution2
+berkelysoftwaredistribution2.0
+berkelysoftware2
+berkelysoftware2.0
+berkelydistribution2
+berkelydistribution2.0
+
+berkely2
+berkely2.0
+
+berkely software dist 2
+berkely-software dist 2
+berkely software-dist 2
+berkely-software-dist 2
+berkely software dist-2
+berkely-software dist-2
+berkely software-dist-2
+berkely-software-dist-2
+
+berkely software dist 2.0
+berkely-software dist 2.0
+berkely software-dist 2.0
+berkely-software-dist 2.0
+berkely software dist-2.0
+berkely-software dist-2.0
+berkely software-dist-2.0
+berkely-software-dist-2.0
+
+berkely dist 2
+berkely-dist 2
+berkely dist-2
+berkely-dist-2
+
+berkely dist 2.0
+berkely-dist 2.0
+berkely dist-2.0
+berkely-dist-2.0
+
+berkelysoftwaredist2
+berkelysoftwaredist2.0
+berkelysoftware2
+berkelysoftware2.0
+berkelydist2
+berkelydist2.0
+
+berkely2
+berkely2.0
+
+/b(?:erkely(?:(?: (?:software[ \-]d|d)ist(?:ribution[ \-]|[ \-])|\-(?:software[ \-]dist(?:ribution[ \-]|[ \-])|dist(?:ribution[ \-]|[ \-])))2(?:\.0)?|software(?:dist(?:ribution2(?:\.0)?|2(?:\.0)?)|2(?:\.0)?)|dist(?:ribution2(?:\.0)?|2(?:\.0)?)|\-software[ \-]2\.0|(?: (?:software )?2|\-2|2)(?:\.0)?| software\-2)|sd[ \-]2(?:\.0)?|sd2(?:\.0)?)/gi

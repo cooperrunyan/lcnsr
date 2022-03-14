@@ -1,0 +1,50 @@
+epl-1.0
+epl-1
+epl 1
+epl 1.0
+
+eclipse public license 1
+eclipse-public license 1
+eclipse public-license 1
+eclipse-public-license 1
+eclipse public license-1
+eclipse-public license-1
+eclipse public-license-1
+eclipse-public-license-1
+
+eclipse public license 1.0
+eclipse-public license 1.0
+eclipse public-license 1.0
+eclipse-public-license 1.0
+eclipse public license-1.0
+eclipse-public license-1.0
+eclipse public-license-1.0
+eclipse-public-license-1.0
+
+eclipse license 1.0
+eclipse-license 1.0
+eclipse license-1.0
+eclipse-license-1.0
+
+eclipse license 1
+eclipse-license 1
+eclipse license-1
+eclipse-license-1
+
+eclipse public 1.0
+eclipse-public 1.0
+eclipse public-1.0
+eclipse-public-1.0
+
+eclipse public 1
+eclipse-public 1
+eclipse public-1
+eclipse-public-1
+
+eclipse 1.0
+eclipse-1.0
+
+eclipse 1
+eclipse-1
+
+/e(?:clipse[ \-](?:(?:public[ \-]l|l)icense[ \-]1(?:\.0)?|(?:public[ \-]1|1)(?:\.0)?)|pl[ \-]1(?:\.0)?)/gim
