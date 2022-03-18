@@ -11,7 +11,7 @@ import { determineMostSimilar } from './similarity.js';
 import { updatePackage } from './updatePackage.js';
 
 const program = new commander.Command()
-  .version('0.1.0')
+  .version('0.1.1')
   .arguments('[license]')
   .option('-d,--describe', 'Display a description of a given license type')
   .option('-f,--find', 'Find the best matched license upon a certain query string')
@@ -37,7 +37,6 @@ async function writeLicense(code: null | string, args: any, command: any): Promi
     closest.code = determineMostSimilar(license, getAllLicenseCodes()).string;
     closest.amt = determineMostSimilar(license, getAllLicenseCodes()).amount;
 
-    console.log(license, args.describe);
     if (!license && args.describe) return void helpAll();
 
     const file = getFile(getLicense(code || license));
@@ -55,7 +54,7 @@ async function writeLicense(code: null | string, args: any, command: any): Promi
     if (!args.quiet) console.log(`Successfully wrote license. (${(file.description as any).id.toUpperCase()})`);
   } catch (err: any) {
     if (/license.+not supported/gi.test(err.message)) {
-      if (closest.amt < 0.3) return void writeLicense(closest.code, args, command);
+      if (closest.amt > 0.3 && !args.strict) return void writeLicense(closest.code, args, command);
       if (!args.quiet && args.strict) return void console.log(`That license type is not supported. Did you mean "${closest.code}"?`);
 
       console.log(err.message);

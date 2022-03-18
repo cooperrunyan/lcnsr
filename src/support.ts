@@ -41,11 +41,7 @@ export default [
       /(?:d(?:o(?:(?: w(?:hat the fuck public |tf\-public\-)l| w(?:(?:hat the fuck |tf\-)l|tf l)| wtf public[ \-]l)icense| what[ \-]the\-fuck(?:[ \-](?:(?:public[ \-]l|l)icense|p(?:ublic|l)))?|\-w(?:hat[ \-]the[ \-]fuck(?:[ \-](?:(?:public[ \-]l|l)icense|p(?:ublic|l)))?|(?:tf[ \-]public[ \-]l|tf[ \-]l)icense|tf[ \-]public)| w(?:(?:(?:hat the fuck(?: public)?|tf\-public)|tf public)|hat the fuck pl))|(?:wtf[ \-]public[ \-]l|wtf[ \-]l)icense|wtf[ \-]public|wtfpl)|wtf[ \-](?:(?:public[ \-]l|l)icense|p(?:ublic|l))|w(?:(?:hat[ \-]the[ \-]fuck|tfpl)|tf))|(^fuck$)/gi,
     fullname: 'Do What the F*** You Want Public License',
   },
-  {
-    name: 'ecl-2.0',
-    accessor: /e(?:ducational[ \-](?:community[ \-](?:license(?:[ \-]2(?:\.0)?)?|2(?:\.0)?)|license[ \-]2(?:\.0)?|2(?:\.0)?)|cl(?:[ \-]2(?:\.0)?)?)/gi,
-    fullname: 'Educational Community License',
-  },
+
   {
     name: 'epl-1.0',
     accessor: /e(?:clipse[ \-](?:(?:public[ \-]l|l)icense[ \-]1(?:\.0)?|(?:public[ \-]1|1)(?:\.0)?)|pl[ \-]1(?:\.0)?)/gi,
@@ -70,6 +66,11 @@ export default [
   { name: 'gpl-2.0', accessor: /(gpl(\s|-|)2)|(GNU.+2)|((Ge\w+).+2)/gi, fullname: 'General Public License 2' },
   { name: 'gpl-3.0', accessor: /(gpl(\s|-|)3)|(GNU.+3)|((Ge\w+).+3)/gi, fullname: 'General Public License 3' },
   { name: 'lgpl-2.1', accessor: /(lgpl(\s|-|)2)|(GNU(\s|-|)Les\w+.+2)|(Les\w+(\s|-|)Ge\w+.+2)/gi, fullname: 'GNU Lesser General Public License 1.1' },
+  {
+    name: 'ecl-2.0',
+    accessor: /e(?:ducational[ \-](?:community[ \-](?:license(?:[ \-]2(?:\.0)?)?|2(?:\.0)?)|license[ \-]2(?:\.0)?|2(?:\.0)?)|cl(?:[ \-]2(?:\.0)?)?)/gi,
+    fullname: 'Educational Community License',
+  },
   { name: 'lgpl-3.0', accessor: /lgpl(\s|-|)(3|)|(GNU(\s|-|)Les\w+.+(3|))|(Les\w+(\s|-|)Ge\w+.+(3|))/gi, fullname: 'GNU Lesser General Public License 3' },
   { name: 'isc', accessor: /isc/gi, fullname: 'ISC' },
   { name: 'lppl-1.3c', accessor: /lppl|(latex)/gi, fullname: 'LaTeX Project Public License' },
