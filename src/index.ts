@@ -11,8 +11,10 @@ import { determineMostSimilar } from './similarity.js';
 import { updatePackage } from './updatePackage.js';
 
 const program = new commander.Command()
-  .arguments('<license>')
+  .version('0.1.0')
+  .arguments('[license]')
   .option('-d,--describe', 'Display a description of a given license type')
+  .option('-f,--find', 'Find the best matched license upon a certain query string')
   .option('-s,--strict', 'Make sure queried license matches a license instead of picking the most similar')
   .option('--log', 'Log the file instead of writing it')
   .option('-q,--quiet', "Don't write a completion message")
@@ -28,16 +30,19 @@ async function writeLicense(code: null | string, args: any, command: any): Promi
   };
 
   try {
-    if (!code || !command.args[0]) throw new Error('A license is required');
+    if ((!code || !command.args[0]) && !args.describe) throw new Error('A license is required');
 
     const license = code || (command.args.join(' ').trim() as string);
 
     closest.code = determineMostSimilar(license, getAllLicenseCodes()).string;
     closest.amt = determineMostSimilar(license, getAllLicenseCodes()).amount;
 
+    console.log(license, args.describe);
     if (!license && args.describe) return void helpAll();
 
     const file = getFile(getLicense(code || license));
+
+    if (args.find) return void process.stdout.write(getLicense(code || license) + '\n');
 
     if (args.log && !args.quiet) return void process.stdout.write(file.license as string);
     if (args.describe) return void console.log(describeOne(file.description));
